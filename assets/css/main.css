@@ -2038,11 +2038,11 @@ input, select, textarea {
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #000000;
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #ffffff;
 			}
 
 		.main.dark {
@@ -2113,6 +2113,7 @@ input, select, textarea {
 
 				.main.style1 h2 {
 					font-size: 3em;
+					color: white;
 				}
 
 			.main.style2 {
@@ -2135,8 +2136,8 @@ input, select, textarea {
 					-webkit-transform: none;
 					-ms-transform: none;
 					transform: none;
-					border-radius: 5%;
-				}
+					
+}
 
 			.main.style3 {
 				text-align: center;
