@@ -657,9 +657,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #98c593;
+		background-color: orange;
 		border: 0;
-		border-radius: 3.5em;
+		border-radius: 0.2em;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
@@ -714,7 +714,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #a8cea4;
+			background-color: #33231e;
 		}
 
 		input[type="button"]:active,
@@ -722,7 +722,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #88bc82;
+			background-color: orange;
 		}
 
 		input[type="button"].style2,
@@ -2165,10 +2165,10 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
 		position: relative;
 		margin: 0;
 		line-height: 1em;
@@ -2249,6 +2249,10 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+	.green-link{
+		color: orange !important
+	}
+
 /* One */
 
 	#one {
@@ -2271,7 +2275,6 @@ input, select, textarea {
 
 	#contact {
 		overflow: hidden;
-		padding-bottom: 0;
 	}
 
 		#contact .box {
